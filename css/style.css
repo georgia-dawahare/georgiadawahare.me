@@ -13,9 +13,9 @@
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --clr-light: #fff;
-  --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-light: #ced3eb;
+  --clr-dark: #6a758a;
+  --clr-accent: #f0d6c0;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -311,7 +311,7 @@ header {
   margin: 0 auto;
 }
 
-#media *min-wdith: 800px) {
+@media (min-width: 800px) {
   .activities {
     display: flex;
     max-width: 1000px;
@@ -374,6 +374,9 @@ header {
   color: var(--clr-light);
   text-align: center;
 }
+/* .section__subtitle--work {
+  color: var(--clr-light);
+} */
 
 .portfolio {
   display: grid;
@@ -444,4 +447,8 @@ header {
 .social-list__link {
   padding: .5em;
   color: var(--clr-accent);
+}
+
+.credit {
+    font-size: 1rem;
 }
